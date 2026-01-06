@@ -12,8 +12,7 @@ Kotlin 기반 알고리즘 기초 문제 풀이 기록
 - Platform: Programmers
 
 ## 📂 폴더 구조
-app/src/main/java/
-└─ programmers/
+app/src/main/java/programmers/
 
 ## ✏️ 학습 방식
 - 프로그래머스 문제 중심 학습
