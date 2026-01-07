@@ -1,5 +1,9 @@
 package programmers.level0
 
+//첫 번째 분수의 분자와 분모 numer1, denom1,
+//두 번째 분수의 분자와 분모 numer2, denom2
+//두 분수를 더한 값을 기약 분수로 나타냈을 때 분자와 분모를 순서대로 담은 배열을 return
+
 class p007_add_fractions {
     fun solution(numer1: Int, denom1: Int, numer2: Int, denom2: Int): IntArray {
 

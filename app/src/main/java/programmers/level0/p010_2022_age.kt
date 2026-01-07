@@ -1,6 +1,7 @@
 package programmers.level0
 
-//2022년 기준 나이 age가 주어질 때, 출생 연도를 return 하는 solution 함수
+//2022년 기준 나이 age가 주어질 때, 출생 연도를 return
+
 class p010_2022_age {
     fun solution(age: Int): Int {
         return 2022 - age + 1
