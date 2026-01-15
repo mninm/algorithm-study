@@ -7,13 +7,12 @@ class p035_ant_hp {
     fun solution(hp: Int): Int {
         var answer: Int = 0
         var h: Int = hp
-
-        answer += h / 5
-        h %= 5
-
-        answer += h / 3
-        h %= 3
-
+        answer += hp / 5
+        h = hp % 5
+        if( h >= 3 ) {
+            h -= 3
+            answer++
+        }
         answer += h
         return answer
     }
