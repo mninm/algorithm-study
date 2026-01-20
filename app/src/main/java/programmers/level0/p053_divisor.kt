@@ -12,4 +12,9 @@ class p053_divisor {
         }
         return answer.toIntArray()
     }
+
+//    fun solution(n: Int): IntArray {
+//
+//        return (1..n).filter{ n % it == 0}.toIntArray()
+//    }
 }
