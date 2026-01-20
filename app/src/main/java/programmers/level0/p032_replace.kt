@@ -5,6 +5,6 @@ package programmers.level0
 class p032_replace {
     fun solution(my_string: String, letter: String): String {
 
-        return my_string.replace(letter.toString(), "")
+        return my_string.replace(letter, "")
     }
 }
