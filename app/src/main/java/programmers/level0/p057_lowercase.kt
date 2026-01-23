@@ -9,7 +9,7 @@ class p057_lowercase {
             if (it.isLowerCase()) {
                 it.uppercase()
             } else {
-                it.lowercaseChar()
+                it.lowercase()
             }
         }.joinToString("")
         return answer
