@@ -5,13 +5,13 @@ package programmers.level0
 
 class p059_share_balls {
     fun solution(balls: Int, share: Int): Long {
-        var result = 1L
+        var answer = 1L
         var k = minOf(share, balls - share)
 
         for (i in 1..k) {
-            result = result * (balls - i + 1) / i
+            answer = answer * (balls - i + 1) / i
         }
-        return result
+        return answer
     }
 
 }
