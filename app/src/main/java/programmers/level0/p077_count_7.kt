@@ -14,4 +14,10 @@ class p077_count_7 {
         }
         return answer
     }
+
+//    fun solution(array: IntArray): Int {
+//        var answer: Int = 0
+//        answer = array.joinToString("").count { it == '7' }
+//        return answer
+//    }
 }
